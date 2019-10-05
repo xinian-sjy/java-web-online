@@ -31,11 +31,9 @@ public class UserService {
     public  void setUserList(List<User> userList){
         this.userList=userList;
     }
-
     public  User sigln(String account,String password){
         for(User user:userList){
-//            if (user.getAccount().equals(account)&&user.getPassword().equals((Md5Util.crypt(password)))){
-//                return user;
+
             if(user.getAccount().equals(account)&&user.getPassword().equals(password)){
                return  user;
 
@@ -43,14 +41,6 @@ public class UserService {
         }
         return  null;
     }
-//
-//    public static  void  main(String[] args){
-//        User user = new UserService().sigln("13019999714", Md5Util.crypt("1234"));
-//        if (user != null) {
-//            System.out.println(user);
-//        }else {
-//            System.out.println("not found");
-//        }
-//    }
+
 
 }

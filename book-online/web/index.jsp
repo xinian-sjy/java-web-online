@@ -155,7 +155,6 @@
         .button{
 
             outline:none;
-
         }
     </style>
 </head>
@@ -165,7 +164,6 @@
     </div>
 
 
-
 <!-- 搜索区 -->
 <div class="search-wrap">
     <h2 >读书时刻</h2>
@@ -173,15 +171,10 @@
 
    <button style="border: 0px solid  rgb(221, 221, 221)" class="button">
        <a href="search.jsp">
-           <i class="iconfont" style="color: white"  >&#xe605;</i>
-       </a>
-
+           <i class="iconfont" style="color: white"  >&#xe605;</i></a>
    </button>
-
-<%--    <input type="button" value="&#xe605;">--%>
-<%--       <input type="button" value="&#xe605;" />--%>
 </div>
-<%--一共${size}本书--%>
+
 <div class="container">
     <div class="left">
         <h1>好书精选</h1>
